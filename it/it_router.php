@@ -1,5 +1,7 @@
 <?php
+
 use Illuminate\Support\Facades\Route;
+
 view()->addLocation(__DIR__ . '/views');
 \Illuminate\Support\Facades\View::addNamespace('it', __DIR__ . '/views');
 
